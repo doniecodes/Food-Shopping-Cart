@@ -174,19 +174,6 @@ let updateQty =()=>{
         })
     })
 }
-/* let keyUp =()=>{
-    let rows = document.querySelectorAll('.cart-item');
-    rows.forEach((row)=>{
-        let qtyInput = row.querySelector('.qty');
-        qtyInput.addEventListener('keyup', (event)=>{
-            updateCart();
-            if(qtyInput.value <= 0){
-                qtyInput.value = 1;
-            };
-        })
-    })
-}
- */
 //delete from cart
 let deleteRow = ()=>{
     let deleteBtns = document.querySelectorAll('.deleteBtn');
