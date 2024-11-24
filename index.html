@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
     <div class="container">
         <header>
-            <h1>Your Shopping Cart</h1>
+            <h1>Products</h1>
             <div class="shopping">
-                <img src="image/shopping.svg">
-                <span class="quantity">0</span>
+                <img src="images/shopping.svg">
+                <span class="main-quantity">0</span>
             </div>
         </header>
+    </div>
 
-        <div class="list">
-          
+    <main class="container grid-container">
+        <div class="product-list">
+            <!-- products here -->
         </div>
-    </div>
-    <div class="card">
-        <h1>Card</h1>
-        <ul class="listCard">
-            
-        </ul>
-        <div class="checkOut">
-            <div class="total">0</div>
-            <div class="closeShopping">Close</div>
+        
+
+            <div class="cartContainer opened">
+                <div class="empty-cart">
+                    <img src="images/empty.png" alt="empty-cart">
+                    <h3>Cart is empty</h3>
+                    <p>you can start adding items</p>
+                </div>
+                <div class="loaded-cart">
+                    <h1>Your Items</h1>
+                <ul class="cartList">
+                    <!-- cart items here -->
+                </ul>
+                <div class="checkOut">
+                    <div class="total">0</div>
+                    <div class="closeCart">Close</div>
+                </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 
     <script src="app.js"></script>
 </body>
+
 </html>
